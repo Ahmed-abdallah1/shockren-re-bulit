@@ -1,0 +1,307 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 54416455169;
+    box-shadow: 0px 0px 20px 0px black;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.toglar{
+    display: none;
+}
+.nav .nav-logo{
+    margin-top: 10px;
+}
+.nav .nav-logo img{
+    width: 40px;
+    margin-top: 10px;
+}
+.nav .caption ul{
+    display: flex;
+    margin-top: 20px;
+}
+.nav .caption ul li{
+    list-style: none;
+    padding: 14px;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.nav .caption ul a{
+    text-decoration: none;
+    color: black;
+}
+.nav .caption button{
+    margin-top: -7px;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: transparent;
+    padding: 8px 20px;
+    border: 2px solid rgb(255,165,0);
+    font-weight: 600;
+}
+.nav .caption button:hover{
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+}
+.nav .caption button i{
+    color: rgb(255,165,0);
+}
+.cap{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(243,245,250);
+    margin-top: 80px;
+    margin-bottom: 550px;
+   
+}
+.cap .head{
+    width: 20%;
+    height: 99%;
+    margin-left: 200px;
+    padding: 1px;
+}
+.cap .head ul{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.cap .head ul li{
+    list-style: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.cap .head ul a{
+    text-decoration: none;
+    color: rgb(255,165,0);
+}
+.cap .head h1{
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color: rgb(55,81,126);
+}
+.pay-cards{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+.pay-cards .card{
+    width: 23%;
+    height: 340px;
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 5px;
+}
+.pay-cards .card img{
+    width: 100%;
+    height: 50%;
+}
+.pay-cards .card h3{
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.pay-cards .head-logo{
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+}
+.pay-cards .head-logo p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    width: 90%;
+}
+.pay-cards .head-logo button{
+    color: #fff;
+    margin-top: 10px;
+    padding: 8px 10px;
+    background-color: #007bff;
+    border:1px solid #007bff;
+    border-radius: 5px;
+}
+.pay-cards .head-logo button:hover{
+cursor: pointer;
+background-color:rgba(0, 22, 120, 0.3) ;
+}
+.links{
+    width: 100%;
+    margin-top: 100px;
+    font-size: 12px;
+}
+.links .links-left{
+    width: 60%;
+    text-align: left;
+}
+.links .links-left h3{
+    margin-left: 190px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(55,81,126);
+    font-size: 14px;
+}
+.links .links-left p{
+    margin-left: 190px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(68,68,68);
+    margin-bottom: 40px;
+}
+.links .links-left .icons{
+    margin-left: 190px;
+    margin-top: -30px;
+}
+.links .links-left .icons a{
+   text-decoration: none;
+   color: white;
+   padding: 3px;
+}
+.links .links-left .icons a i{
+   padding: 10px 10px; 
+   border-radius: 50%;
+   background-color: rgb(255,165,0);
+}
+footer{
+    width: 100%;
+    height: 180px;
+    margin-top: 50px;
+    background-color: rgb(55,81,126);
+    color: white;
+    padding-top: 1px;
+}
+footer .end{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+footer p{
+    font-size: 12px;
+}
+footer .end a{
+    text-decoration: none;
+    color: rgb(255,165,0);
+}
+.copy-right p{
+    line-height: 1.4
+
+}
+.email h4{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+@media(max-width:600px){
+    .nav .caption ul{
+        display: none;
+    }
+    .nav-logo{
+        margin-left: -20px;
+    }
+    .toglar{
+        display: block;
+        margin-top: 30px;
+        margin-left: 180px;
+        font-size: large;
+    }
+    .nav{
+        justify-content: space-around;
+    }
+    .home-all .home{
+        display: block;
+    }
+    .home-all .home .home-logo{
+        width:100%;
+    }
+    .home-all .home .home-logo img{
+        width: 85%;
+         margin-left: 20px;
+    }
+    .home-all .home .home-head{
+        width: 95%;
+        text-align: center;
+        margin: 50px auto auto auto;
+    }
+    .home-all .home .home-head h1{
+        font-size: 33px;
+        margin-top: -50px;
+    }
+    .home-all .home .home-head h2{
+        font-size: 16px;
+    }
+    .home-all .home .home-head button{
+        margin-top: -10px;
+    }
+    .cap{
+        height: auto;
+        background-color: white;
+    }
+    .cap .head{
+        width: 100%;
+        margin: 0px;
+        margin-left: 10px;
+        background-color: rgb(243,245,250);
+        padding-bottom: 10px;
+    }
+    .pay-cards{
+        width: 80%;
+        display: block;
+        height: auto;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: -450px;
+    }
+    .pay-cards .card{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .links{
+        margin-top: 0px;
+    }
+    .links .links-left{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .links .links-left h3{
+        margin: 0px;
+    }
+    .links .links-left p{
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .links .links-left .icons{
+        margin: 0px;
+    }
+    footer{
+        height: auto;
+        text-align: center;
+        font-size: 16px;
+    }
+    footer .end{
+        display: block;
+        width: 100%;
+    }
+    .copy-right{
+        margin-bottom: 50px;
+    }
+    .email h4{
+        font-size: 15px;
+    }
+}
